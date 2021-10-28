@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 3</title>
+
+    <style>
+
+        .questao {
+            width: 500px;
+            padding: 20px;
+            margin: 0 auto;
+            background-color: rgb(211, 209, 209);
+        }
+
+    </style>
+
+    <script>
+
+        var valorAlmoco = Number(prompt('Digite o valor total do almoço: '))
+        var gorjeta = Number(valorAlmoco * (13 / 100))
+        var totalAlmoco = Number(valorAlmoco + gorjeta)
+
+        alert('O garçom receberá R$' + gorjeta + 
+        ' e você pagará um total de R$' + totalAlmoco + ' pela refeição.')
+
+
+    </script>
+
+</head>
+
+
+<body>
+
+    <div class="questao">
+        <h1>3 - Criar um software em JS, que receba o valor total de um almoço, calcule e informe o valor dos 13% do garçom e o valor da conta a ser pago.</h1>
+    
+    
+    <script>
+
+        function refreshPage() {
+            window.location.reload();
+          }
+          
+    </script>
+
+        <button type="submit" onclick="refreshPage()">Faça novamente!</button>
+
+    </div>
+
+</body>
+</html>
